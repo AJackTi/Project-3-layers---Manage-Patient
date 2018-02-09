@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ManagePatient">
+  <DataContextMoniker Name="/ManagePatientDataContext" />
+  <nestedChildShapes>
+    <classShape Id="02fc0b77-d143-489e-9add-2329baf74f60" absoluteBounds="0.75, 1.5, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/ManagePatientDataContext/RoomInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a4f21e19-3214-4ddf-b6fd-5e078cd2b326" absoluteBounds="0.765, 1.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0b1861d5-e9d9-4c83-9a4e-1b77739e36c4" absoluteBounds="3.5, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/ManagePatientDataContext/PatientInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0d0b8518-68af-4c02-a11e-165e78d01b53" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.19314697265625); (3.5 : 2.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ManagePatientDataContext/RoomInfo/RoomInfo_PatientInfo" />
+      <nodes>
+        <classShapeMoniker Id="02fc0b77-d143-489e-9add-2329baf74f60" />
+        <classShapeMoniker Id="0b1861d5-e9d9-4c83-9a4e-1b77739e36c4" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
